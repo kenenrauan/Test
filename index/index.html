@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="index_script.js"></script>
+</head>
+<body>
+
+<div id="feedback-container">
+    <form id="feedback-form" enctype="multipart/form-data">
+        <input type="text" name="name" placeholder="Имя" required><br>
+        <input type="email" name="email" placeholder="E-mail" required><br>
+        <textarea name="message" placeholder="Текст сообщения" required></textarea><br>
+        <input type="file" name="image"><br>
+        <div id="error-message"></div>
+
+        <label for="sort-field">Сортировать по:</label>
+        <select id="sort-field">
+            <option value="created_at">Дате добавления</option>
+            <option value="name">Имени</option>
+            <option value="email">E-mail</option>
+            
+        </select>
+
+
+        <input type="submit" value="Отправить">
+    </form>
+
+    <div id="feedback-list">
+    </div>
+</div>
+
+</body>
+</html>

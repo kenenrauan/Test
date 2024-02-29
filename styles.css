@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+
+#feedback-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#feedback-form {
+    margin-bottom: 20px;
+}
+
+#feedback-form input,
+#feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#feedback-form input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+#feedback-form input[type="file"] {
+    margin-top: 10px;
+}
+
+#feedback-list .feedback {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#feedback-list img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.admin-feedback {
+    border: 1px solid #3498db;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.admin-feedback img {
+    max-width: 50px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.admin-feedback .status-approved {
+    color: #2ecc71;
+}
+
+.admin-feedback .status-rejected {
+    color: #e74c3c;
+}
+
+
+#admin-login-container {
+    width: 300px;
+    margin: 100px auto;
+}
+
+#admin-login-form input {
+    margin-bottom: 10px;
+}
+
+
+#admin-panel-container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.admin-feedback {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.admin-feedback img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    cursor: pointer;
+}
+
+.thumbnail {
+    max-width: 50px; 
+    max-height: 50px;
+}
+
+.admin-edited {
+    color: red;
+    font-style: italic;
+}
